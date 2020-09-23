@@ -1,0 +1,39 @@
+.arrow-left.arrow-left:before,
+.arrow-right.arrow-left:before,
+.arrow-left.arrow-right:before,
+.arrow-right.arrow-right:before,
+.slider-zoom .ltx-arrow-down:after,
+.icon-live_instruments:before {
+    content: ""!important;
+}
+
+.pink {
+    color: #DC2751;
+}
+
+.slider-zoom .ltx-arrow-down {
+    -webkit-transform: none;
+    transform: none;
+}
+
+.icon_slide {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 20px;
+    left: 50%;
+}
+
+.ltx-footer-wrapper {
+    background-position: center bottom;
+}
+
+
+/* introduce */
+
+.welcome {
+    padding: 100px 0px;
+}
+
+
+/* end-introduce */
