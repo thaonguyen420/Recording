@@ -28,6 +28,16 @@
     background-position: center bottom;
 }
 
+.icon-x {
+    font-size: 17px!important;
+    height: 34px!important;
+    line-height: 34px!important;
+}
+
+.footer-widget-area .header-widget {
+    text-transform: capitalize;
+}
+
 
 /* introduce */
 
@@ -35,5 +45,200 @@
     padding: 100px 0px;
 }
 
+.ltx-navbar-icons .top-search input[type=text] {
+    width: 100%;
+}
+
 
 /* end-introduce */
+
+form.user .custom-checkbox.small label {
+    line-height: 1.5rem;
+}
+
+form.user .form-control-user {
+    font-size: 0.8rem;
+    border-radius: 10px;
+    padding: 1.2rem 1rem;
+}
+
+form.user .btn-user {
+    font-size: 0.8rem;
+    border-radius: 10rem;
+    padding: 8px;
+}
+
+#confirm {
+    background-color: #DA2751;
+    color: white;
+    box-sizing: border-box;
+    margin: auto;
+    font-size: 17px;
+    padding: 14px;
+}
+
+.button-confirm {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+a.rounded-pill {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+}
+
+.login-bg:after {
+    content: "";
+    background-image: url("https://mylayoutbuilder.com/wp-content/uploads/2020/02/login.jpg");
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+}
+
+.login-bg .shadow-lg {
+    box-shadow: 0 0.5rem 2rem #ddd !important;
+}
+
+.login-bg .login-page {
+    height: 100vh;
+    align-items: center;
+    min-height: 650px;
+}
+
+.login-bg .login-page .headding img {
+    margin-bottom: 10px;
+}
+
+.login-bg .login-page .headding p {
+    font-size: 14px;
+    margin-bottom: 2rem;
+}
+
+.login-bg .login-page .headding h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.login-bg .login-page .login-copyright {
+    position: absolute;
+    bottom: 0;
+}
+
+.login-bg .login-page .login-copyright p {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+.login-bg .login-page .resetpassword-headding p {
+    font-size: 12px;
+    margin-bottom: 2rem;
+}
+
+.login-bg .login-page .resetpassword-headding h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.small {
+    text-decoration: none;
+    color: #DA2751;
+    font-weight: 500;
+}
+
+a.small:hover {
+    color: #20202b;
+}
+
+.headding img {
+    width: 200px;
+}
+
+form.user {
+    padding: 0;
+}
+
+h2.font-login {
+    font-size: 36px;
+}
+
+a.rounded-pill {
+    padding: 14px;
+    margin-top: 10px;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+    background: #E91E63;
+}
+
+.show {
+    display: none;
+}
+
+.in-out {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 99;
+    transform: translate(-50%, -43%)!important;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.3);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.show-form {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.hidden-x {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+    background-color: transparent;
+    border: none;
+}
+
+.woocommerce nav.woocommerce-pagination ul .prev,
+.woocommerce nav.woocommerce-pagination ul .next {
+    font-size: revert;
+    overflow: visible;
+}
+
+.woocommerce nav.woocommerce-pagination ul .prev.prev:before,
+.woocommerce nav.woocommerce-pagination ul .next.prev:before,
+.woocommerce nav.woocommerce-pagination ul .prev.next:after,
+.woocommerce nav.woocommerce-pagination ul .next.next:after,
+.paging-navigation .pagination .prev.prev:before,
+.page-numbers .pagination .prev.prev:before,
+.paging-navigation .pagination .next.prev:before,
+.page-numbers .pagination .next.prev:before,
+.paging-navigation .pagination .prev.next:after,
+.page-numbers .pagination .prev.next:after,
+.paging-navigation .pagination .next.next:after,
+.page-numbers .pagination .next.next:after {
+    font-family: none;
+    opacity: 0;
+    content: "";
+}
+
+.bor-ra {
+    border-radius: 0px!important;
+}
